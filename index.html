@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>방송국 홈페이지</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 카메라 셔터 효과 -->
+    <div id="camera-shutter" class="shutter-overlay">
+        <div class="shutter-left"></div>
+        <div class="shutter-right"></div>
+        <div class="flash"></div>
+    </div>
+
+    <!-- 메인 컨텐츠 -->
+    <div class="container">
+        <header>
+            <nav>
+                <div class="logo">📺 BROADCAST</div>
+                <ul class="nav-menu">
+                    <li><a href="#home">홈</a></li>
+                    <li><a href="#programs">프로그램</a></li>
+                    <li><a href="#live">실시간 방송</a></li>
+                    <li><a href="#schedule">편성표</a></li>
+                    <li><a href="#contact">문의</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section class="hero">
+                <h1>환영합니다!</h1>
+                <p>최고의 방송 콘텐츠를 만나보세요</p>
+                <button class="cta-button">지금 시청하기</button>
+            </section>
+
+            <section class="programs">
+                <h2>인기 프로그램</h2>
+                <div class="program-grid">
+                    <div class="program-card">
+                        <div class="program-image">🎬</div>
+                        <h3>뉴스 특보</h3>
+                        <p>매일 저녁 8시</p>
+                    </div>
+                    <div class="program-card">
+                        <div class="program-image">🎭</div>
+                        <h3>버라이어티</h3>
+                        <p>매주 금요일 9시</p>
+                    </div>
+                    <div class="program-card">
+                        <div class="program-image">🎵</div>
+                        <h3>음악 방송</h3>
+                        <p>매주 토요일 7시</p>
+                    </div>
+                    <div class="program-card">
+                        <div class="program-image">⚽</div>
+                        <h3>스포츠 중계</h3>
+                        <p>매주 일요일 3시</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 방송국. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
